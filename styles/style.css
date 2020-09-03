@@ -282,17 +282,18 @@ section {
    display: flex;
    justify-content: space-between;
    min-height: 350px;
+   height: 100%;
    width: 90%;
    margin: 0 auto;
    padding: 60px 0 40px;
 }
 
 .footer__column_content_copyright {
-   flex-basis: 711px;
    display: flex;
    flex-direction: column;
    justify-content: space-between;
    align-items: start;
+   flex-basis: 711px;
 }
 
 .logo_place_footer {
