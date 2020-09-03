@@ -282,7 +282,6 @@ section {
 .footer__columns {
    display: flex;
    justify-content: space-between;
-   min-height: 350px;
    height: 100%;
    width: 90%;
    margin: 0 auto;
@@ -295,6 +294,7 @@ section {
    justify-content: space-between;
    align-items: start;
    flex-basis: 711px;
+   min-height: 350px;
 }
 
 .logo_place_footer {
