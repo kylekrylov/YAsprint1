@@ -31,7 +31,6 @@ section {
 
 .title {
    text-align: center;
-   width: 648px;
    margin: 0;
 }
 
@@ -61,6 +60,7 @@ section {
 .header__title {
    align-self: center;
    text-align: left;
+   width: 648px;
    margin: 0px 0px 0px 64px;
    font-size: 102px;
    line-height: 96px;
@@ -282,7 +282,6 @@ section {
 .footer__columns {
    display: flex;
    justify-content: space-between;
-   height: 100%;
    width: 90%;
    margin: 0 auto;
    padding: 60px 0 40px;
