@@ -1,11 +1,7 @@
 .page {
    min-width: 1100px;
-   /* мы ещё не умеем делать мобильную версию сайта, */
-   /* поэтому выше установлена минимальная ширина страницы */
    max-width: 1600px;
-   /* выше установили ограничение по максимальной ширине */
    margin: 0 auto;
-   /* выше для экранов больше 1600px отцентрировали весь контент */
    font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
@@ -41,12 +37,10 @@ section {
    height: 100vh;
    min-height: 600px;
    max-height: 756px;
-   /* выше установили ограничения для секции */
    display: flex;
    position: relative;
    background: #F2F2F2;
    margin: 0px 0px 0px 0px;
-   /* justify-content: space-around; */
 }
 
 .header__logo_place {
@@ -82,13 +76,9 @@ section {
    position: absolute;
    right: 0;
    bottom: 0;
-   /* height: 765px; */
    z-index: 1;
    max-width: 808px;
 }
-
-
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 
 .header__square-pic {
    height: 568px;
@@ -134,9 +124,6 @@ section {
 .two-column__span-accent {
    font-weight: 600;
 }
-
-
-/* и элемента с модификатором вида ключ-значение */
 
 .digits {
    display: flex;
@@ -261,10 +248,13 @@ section {
    margin: 80px 0px 0px 0px;
 }
 
+.table__heading_theme_dark {
+   color: #fff;
+}
 
-/* .table__heading_theme_dark {}
-
-.table__text_theme_dark {} */
+.table__text_theme_dark {
+   color: #fff;
+}
 
 .kaufman__triangle {
    height: 877px;
